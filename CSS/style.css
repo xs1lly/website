@@ -4,15 +4,57 @@ body {
     color: #fcfdfe;
 }
 
+.button_js {
+    text-align: center;
+}
+
+#myButton {
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(219, 74, 74);
+    columns: rgb(31, 184, 146);
+    font-weight: bold;
+}
+
+#demo img {
+    margin-top: 20px;
+    width: 25%;
+}
+
 .nav_bar {
 }
 .container {
 }
 .row {
 }
-.col-8 {
+
+.col-12 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
 }
+
+.col-8 {
+  color: #ffffff; 
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; 
+  font-size: 1.1rem; 
+  letter-spacing: 0.5px; 
+  line-height: 1.6; 
+  transition: all 0.3s ease; 
+  text-align: center;
+
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 1.2rem;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
 .col-4 {
+    width: 400px;
 }
 .col-3.nav_logo {
 }
